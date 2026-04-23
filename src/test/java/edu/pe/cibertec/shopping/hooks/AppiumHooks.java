@@ -34,14 +34,6 @@ public class AppiumHooks {
         OnStage.setTheStage(Cast.whereEveryoneCan(actor -> actor.whoCan(
                 BrowseTheWeb.with(driver)
         )));
-
-        /*
-        // Inicializar correctamente el escenario
-        OnStage.setTheStage(new net.serenitybdd.screenplay.actors.OnlineCast());
-
-        //Crear actor y darle habilidad
-        OnStage.theActorCalled("Andrea").can(BrowseTheWeb.with(driver));
-        */
     }
 
     @After
